@@ -1,0 +1,30 @@
+{
+    "label": "10 ハイドパーク(禁断の頁)",
+    "servants": [
+        "ダ・ヴィンチ",
+        "玉藻",
+        "アルトリアC"
+    ],
+    "commands": [
+        [
+            "#call 1",
+            "#call 2",
+            "#call 3"
+        ],
+        [
+            "skill(0)",
+            "skill(1,'servant.2')",
+            "skill(2,'servant.2')",
+            "skill(3)",
+            "skill(5,'servant.2')",
+            "skill(6)",
+            "attack('N0','N2','C0')"
+        ],
+        [
+            "attack('N2','C0','C1')"
+        ],
+        [
+            "attack('N2','C0','C1')"
+        ]
+    ]
+}

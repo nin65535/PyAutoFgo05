@@ -1,0 +1,55 @@
+{
+    "label" : "99 クリスマス!!!",
+    "servants": [
+        "Sイシュタル",
+        "景虎",
+        "アルトリアC",
+        "アルトリアC",
+        "カルナS"
+    ],
+    "commands": [
+        [
+            "skill(6)",
+            "skill(7,'servant.1')",
+            "skill(8,'servant.0')",
+            "swap(2,3)",
+            "skill(0)",
+            "skill(1,'servant.1')",
+            "skill(5)",
+            "skill(6)",
+            "skill(7,'servant.2')",
+            "skill(8,'servant.0')",
+            "attack('N2','N0','C0')"
+        ],
+        [
+            "skill(3)",
+            "attack('N1','C0','C1')"
+        ],
+        [
+            "skill(2)",
+            "master_skill(0)",
+            "master_skill(1)",
+            "attack('N0','C0','C1')"
+        ],
+        [
+            "skill(6)",
+            "skill(7,'servant.1')",
+            "skill(8,'servant.0')",
+            "swap(2,3)",
+            "skill(0)",
+            "skill(1,'servant.1')",
+            "skill(5)",
+            "skill(6)",
+            "skill(7,'servant.2')",
+            "skill(8,'servant.0')",
+            "attack('N2','N0','C0')",
+            "skill(3)",
+            "attack('N1','C0','C1')",
+            "skill(2)",
+            "master_skill(0)",
+            "master_skill(1)",
+            "attack('N0','C0','C1')",
+            "attack('C0','C1','C2')"
+        ]
+    ]
+}
