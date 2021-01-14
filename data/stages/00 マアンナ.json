@@ -25,11 +25,11 @@
             "attack('N0','C0','C1')"
         ],
         [
+            "skill(7,'servant.0')",
             "attack('N0','C0','C1')"
         ],
         [
             "skill(6)",
-            "skill(7,'servant.0')",
             "attack('N0','C0','C1')"
         ]
     ]

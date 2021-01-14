@@ -40,7 +40,7 @@ function AppMain(): JSX.Element {
 function Header(): JSX.Element {
     return <header className='bg-primary text-white'>
         <div className='container'>
-            <h1>PyAutoFgo04</h1>
+            <h1>PyAutoFgo05</h1>
         </div>
     </header>
 }

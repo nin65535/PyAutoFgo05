@@ -1,6 +1,16 @@
 {
     "player": {
-        "sleep_step": 0.5
+        "sleep_step": 0.5,
+        "window": {
+            "size": [
+                400,
+                1800
+            ],
+            "position": [
+                0,
+                0
+            ]
+        }
     },
     "path": {
         "stages": "./data/stages",

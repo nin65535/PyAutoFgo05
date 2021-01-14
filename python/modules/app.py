@@ -1,4 +1,8 @@
+import subprocess
+import pathlib
 import eel
+
+from .config import Config
 from .stage import Stage
 from .window import Window
 from .player import Player
@@ -20,7 +24,6 @@ class App:
     @staticmethod
     @eel.expose
     def get_stages() -> list:
-        App._instance.log('get_stage called')
         return App._instance.stage.stages
 
     @staticmethod
@@ -39,6 +42,13 @@ class App:
     def stop() -> None:
         App._instance.player.stop()
 
+    @staticmethod
+    @eel.expose
+    def open_folder(name: str) -> None:
+        p = pathlib.Path(Config.read('path',name))
+        subprocess.run('explorer {}'.format(p))
+
+
     def set_pos(self, stage_no: int, cmd_no: int, line_no: int) -> None:
         if hasattr(eel, 'set_pos'):
             eel.set_pos(stage_no, cmd_no, line_no)  # pylint: disable=no-member
@@ -56,4 +66,3 @@ class App:
             eel.play_end(stage_no, cmd_no)  # pylint: disable=no-member
         else:
             print('play_end not found')
-

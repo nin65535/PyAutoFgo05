@@ -10,3 +10,4 @@
 > python -m eel main.py public --exclude numpy --exclude cryptography --onefile --noconsole
 
 生成されたexeファイルを data,html等のあるフォルダで実行
+ショートカット作って作業フォルダを data,htmlのあるフォルダにすればOK
